@@ -28,23 +28,9 @@
   fill: #1f2328;
 }
 
-/* Discord Icon Specific Style */
-.social-media-list li.discord svg {
-  fill: #000;
-}
-
-.social-media-list li.discord:hover svg {
-  fill: #1f2328; 
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .site-nav .page-link {
     margin-left: 0;
-  }
-
-  .social-media-list {
-    flex-direction: column;
-    gap: 10px;
   }
 }
 
