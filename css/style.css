@@ -28,9 +28,23 @@
   fill: #1f2328;
 }
 
+/* Discord Icon Specific Style */
+.social-media-list li.discord svg {
+  fill: #5865F2; /* Discord blue */
+}
+
+.social-media-list li.discord:hover svg {
+  fill: #4e5bb0; /* A darker shade of blue for hover */
+}
+
 @media screen and (max-width: 600px) {
   .site-nav .page-link {
     margin-left: 0;
+  }
+
+  .social-media-list {
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
