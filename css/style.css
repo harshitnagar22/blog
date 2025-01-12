@@ -28,6 +28,15 @@
   fill: #1f2328;
 }
 
+/* Ensures the Discord icon is always visible */
+.discord-svg {
+  display: inline-block;
+  visibility: visible;
+  width: 15px; /* Adjust as needed */
+  height: 15px; /* Adjust as needed */
+}
+
+/* Media query for responsive design */
 @media screen and (max-width: 600px) {
   .site-nav .page-link {
     margin-left: 0;
