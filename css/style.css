@@ -30,14 +30,14 @@
 
 /* Discord Icon Specific Style */
 .social-media-list li.discord svg {
-  fill: #5865F2; /* Discord blue */
+  fill: #000;
 }
 
 .social-media-list li.discord:hover svg {
-  fill: #4e5bb0; /* A darker shade of blue for hover */
+  fill: #1f2328; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .site-nav .page-link {
     margin-left: 0;
   }
